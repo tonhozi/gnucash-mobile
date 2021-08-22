@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gnucash_mobile/providers/transactions.dart';
+import 'package:ptofinance/providers/transactions.dart';
 import 'package:provider/provider.dart';
 
 class TransactionsView extends StatelessWidget {

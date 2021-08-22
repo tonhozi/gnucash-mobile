@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:gnucash_mobile/providers/accounts.dart';
-import 'package:gnucash_mobile/providers/transactions.dart';
-import 'package:gnucash_mobile/widgets/list_of_accounts.dart';
-import 'package:gnucash_mobile/widgets/transaction_form.dart';
-import 'package:gnucash_mobile/widgets/transactions_view.dart';
+import 'package:ptofinance/providers/accounts.dart';
+import 'package:ptofinance/providers/transactions.dart';
+import 'package:ptofinance/widgets/list_of_accounts.dart';
+import 'package:ptofinance/widgets/transaction_form.dart';
+import 'package:ptofinance/widgets/transactions_view.dart';
 import 'package:provider/provider.dart';
 
 import '../constants.dart';

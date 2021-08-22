@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gnucash_mobile/providers/accounts.dart';
+import 'package:ptofinance/providers/accounts.dart';
 
 void main() async {
   test("test JSON conversion", () {

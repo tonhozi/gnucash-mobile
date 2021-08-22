@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:gnucash_mobile/constants.dart';
-import 'package:gnucash_mobile/providers/accounts.dart';
+import 'package:ptofinance/constants.dart';
+import 'package:ptofinance/providers/accounts.dart';
 import 'package:provider/provider.dart';
 
 class Intro extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gnucash_mobile/providers/accounts.dart';
+import 'package:ptofinance/providers/accounts.dart';
 import 'package:provider/provider.dart';
 
 import '../constants.dart';
