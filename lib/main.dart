@@ -2,13 +2,13 @@ import 'dart:io';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:gnucash_mobile/providers/accounts.dart';
-import 'package:gnucash_mobile/providers/transactions.dart';
-import 'package:gnucash_mobile/widgets/export.dart';
-import 'package:gnucash_mobile/widgets/favorites.dart';
-import 'package:gnucash_mobile/widgets/intro.dart';
-import 'package:gnucash_mobile/widgets/list_of_accounts.dart';
-import 'package:gnucash_mobile/widgets/transaction_form.dart';
+import 'package:ptofinance/providers/accounts.dart';
+import 'package:ptofinance/providers/transactions.dart';
+import 'package:ptofinance/widgets/export.dart';
+import 'package:ptofinance/widgets/favorites.dart';
+import 'package:ptofinance/widgets/intro.dart';
+import 'package:ptofinance/widgets/list_of_accounts.dart';
+import 'package:ptofinance/widgets/transaction_form.dart';
 import 'package:provider/provider.dart';
 import 'constants.dart';
 
@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: <Widget>[
                   DrawerHeader(
                     child: Text(
-                      "GnuCash Mobile",
+                      "PTO Finance",
                       style: TextStyle(
                         color: Constants.lightPrimary,
                         fontSize: 20,
